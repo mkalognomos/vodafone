@@ -1,0 +1,64 @@
+
+/* CAROUSEL */
+.carousel {
+    position: relative;
+    height: 400px;
+    width: 100%
+  }
+  
+  .slides {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1000ms;
+    background-color: #404859;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .slide h3 {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+
+  .slide h4 {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  .slide:nth-child(1) {
+      opacity: 1;
+  }
+  
+  .slide[data-state=active] {
+    display: block;
+  }
+  
+  .indicators {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .indicator {
+      cursor: pointer;
+  }
+/* END CAROUSEL */
