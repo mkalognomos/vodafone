@@ -17,7 +17,7 @@ function carouselService() {
                 <input class="indicator" name="indicator" data-slide="3" type="radio" />
             </div>`
   
-          // Call carousel from custom-carousel.js
+          // Call carousel from carousel-component.js
           carousel();
   
         } else {
