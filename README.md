@@ -1,8 +1,7 @@
-Vodafone-Application
+Vanilla JS App
 
 Created with Html,
-Css, 
-Vodafone Api 
+Css
 and Pure Javascript!
 
 Just Open Index.html
